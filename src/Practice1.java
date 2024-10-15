@@ -23,7 +23,7 @@ public class Practice1 {
         frame = new JFrame("Practice 1");
 
         System.out.println("Layout 1, or 2?");
-        Integer layoutChoice = layoutOption.nextInt();
+        int layoutChoice = layoutOption.nextInt();
         int rand = (int) (Math.random() * 2);
 
         while(layoutChoice!=1 && layoutChoice!=2) {
