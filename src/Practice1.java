@@ -39,7 +39,7 @@ public class Practice1 {
 
         if (layoutChoice == 1) {
             layoutOne();
-        } else if (layoutChoice == 2) {
+        } else {
             layoutTwo();
         }
 
